@@ -659,4 +659,23 @@ main #about .inner a:hover {
 #contact a:hover {
   background-color: var(--green-tint);
 }
+
+footer {
+  background-color: var(--light-navy);
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+footer a, footer span {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=style.css.map */

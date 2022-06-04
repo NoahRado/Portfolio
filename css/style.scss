@@ -561,6 +561,23 @@ main {
         }   
       }
     }
+
+
+  footer {
+    background-color: var(--light-navy);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    a, span {
+      margin-left: 10px;
+    }
+  }
+
+  
+
     
 
    
