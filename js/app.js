@@ -23,8 +23,11 @@ const navSlide = () => {
 
 }
 
+
 $(document).ready(function () {
-    
+    console.log('ready');
+    $(this).scrollTop(0);
+
     $('#card-1').click(function () {
         window.open("/examples/Pflanzenwiki/index.html");
     })

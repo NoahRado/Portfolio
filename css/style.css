@@ -202,6 +202,10 @@ header .nav-links li {
   font-family: var(--font-mono);
 }
 
+header .nav-links.nav-active {
+  max-height: 500px;
+}
+
 header .burger {
   display: none;
 }
