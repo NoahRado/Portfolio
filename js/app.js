@@ -39,13 +39,16 @@ $(document).ready(function () {
     $('#card-3').click(function () {
         alert("Swift Datei kann nicht im Browser geöffnet werden.")
     });
+
+    $('#git').click(function () {
+        window.open("https://github.com/NoahRado")
+    })
 });
 
 
 
 $(window).on("load", function () {
     $(".loader-wrapper").delay(1250).fadeOut("slow");
-    ($("body").removeClass("preload"));
 });
 
 
